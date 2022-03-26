@@ -1,9 +1,8 @@
-a=["a","b","c","d"]
-b=[1,3,5,3]
+a=[5,7,9,78]
 i=0
-m={}
+max=0
 while i<len(a):
-  while i<len(b):
-    m.update({a[i]:b[i]})
-    i=i+1
-  print(m)
+  if a[i]>max:
+    max=a[i]
+  i=i+1
+

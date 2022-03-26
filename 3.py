@@ -1,9 +1,5 @@
-a=[1,2,3,1,2,3]
-m=[]
-i=0
-while i<len(a):
-  if a[i] not in m:
-    m.append(a[i])
-    # print(m)
-  i=i+1
-print(m)
+a=[3,5,7,8]
+c=0
+while a[c:]:
+  c=c+1
+print(c)

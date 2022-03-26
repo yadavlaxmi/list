@@ -1,17 +1,12 @@
-a=["my name is laxmi,I am 12 year old"]
-i=0
+a=[[2,3,4],[5,6,7],[8,9,2]]
 m=[]
+i=0
 while i<len(a):
-  b=a[i].split()
-  i=i+1
-  m.append(b)
-c=0
-j=0
-while j<len(m):
-  k=0
-  while k<len(m[j]):
-    c=c+1
-    k=k+1
-  j=j+1
-print("count",c)
-
+	sum=0
+	j=0
+	while j<len(a):
+		sum=sum+a[j][i]
+		j=j+1
+	i=i+1
+	m.append(sum)
+print(m)

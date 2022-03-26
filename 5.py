@@ -1,10 +1,10 @@
-a=["laxmi","govind","mansa","guddi"]
+b=[[6,8,9],[9,0]]
 i=0
-while i<len(a):
+sum1=0
+while i<len(b):
   j=0
-  c=0
-  while j<len(a[i]):
-    c=c+1
+  while j<len(b[i]):
+    sum1=sum1+b[i][j]
     j=j+1
-  print(a[i],c)
   i=i+1
+print(sum1)
